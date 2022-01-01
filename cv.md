@@ -1,2 +1,3 @@
-## Hello everybody
-_testing markdown here_
+# Hello everybody
+### My name is **Dima Zelentsou**
+### I live in Minsk, Belarus
