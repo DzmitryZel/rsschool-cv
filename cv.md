@@ -2,7 +2,7 @@
 ### My name is Dimitry Zelentsou
 ### I live in Minsk, Belarus
 ### 23 y.o
-![](cv-photo.jpg)
+![](cv-photo.jpg =200)
 #### *Graduation and professional skills*
 I graduated from Belarusian State Economic University for speciality finance and credit.
 Now i work in a bank in a treasury depatrment.
