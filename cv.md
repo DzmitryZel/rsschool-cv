@@ -2,6 +2,7 @@
 ### My name is Dimitry Zelentsou
 ### I live in Minsk, Belarus
 ### 23 y.o
+!(C:\Users\dima9\rsschool-cv\cv-photo.jpg)
 #### *Graduation and professional skills*
 I graduated from Belarusian State Economic University for speciality finance and credit.
 Now i work in a bank in a treasury depatrment.
@@ -18,9 +19,13 @@ And even if i can't became a developer, i sure that this knowleges will never go
 I have an english skills on pre-intermediate level i think. They are not so bad, but also not so good. Even writing this information abough myself, i had to use google translate a couple of times. But now i improving my english skills by watching serials, using eng-teaching apps and studying grammar.
 
 #### Dev skills and examples of code
-Unfortionatly, this website is all i can do now)) But i sure, this will change soon.
-
+Unfortionatly, this website is all i can do now)) But i sure, it will change soon.
+First task from codevars:
+'function multiply($b, $a){
+ return $a * $b
+}
+'
 #### Contacts 
-disc: DzmitryZel#1125
+disc: **Dima (@DzmitryZel)**
 
 ### Thank for your attention ^-^
