@@ -1,24 +1,28 @@
+a{
+    text-decoration: none;
+    color: khaki;
+}
+.logo{
+    color: coral;
+    font-size: 30px;
+    margin-right: 70px;
+}
 .header{
-    background-color: rgba(37, 51, 29, 0.596);
-    max-width: 55%;
-    max-height: 100px;
+    max-width: 70%;
     margin: auto;
-}
-
-.navi{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: black;
 }
-.navi li{
-    min-width: 50px;
-    list-style-type: none;
-    font-size: 12px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic rgba(249, 255, 249, 0.863);
-    border: solid 1px;
+.header_menu{
+    display: flex;
+    align-items: center;
 }
-.knopki{
-    padding: auto;
-    margin: 1px;
+.menu_but{
+    padding: 10px;
+}
+.menu_but:hover{
+    background-color: rgb(105, 101, 59);
+    border-radius: 4px;
 }

@@ -9,7 +9,7 @@ Now i work in a bank in a treasury depatrment.
 I have a lot of knowleges about banking system, financial markets, forex and stock markets.
 I'm not so bad at macro- and microeconomics.
 Also i finished a couple of Excel courses.
-But my way in IT is just begining.
+But my way in IT is just began.
 #### *Lifestyle and priorities*
 To a greater extent i like to live a calm life: listening to music, hanging up with friend, eating yummy food(*i adore fastfood and pizza*).
 Buy i cant live without growth and evolution of my professional skills. Thats why i came to this school. I face to IT sphere more and more every day even on my work.
