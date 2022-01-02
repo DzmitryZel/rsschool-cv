@@ -1,23 +1,29 @@
+.body{
+    width: 70%;
+    margin: auto;
+}
 a{
     text-decoration: none;
     color: khaki;
 }
-.logo{
+.header_logo{
+    display: flex;
+    align-items: center;
     color: coral;
-    font-size: 40px;
-    padding-right: 300px;
+    font-size: 60px;
+    justify-content: center;
+    width: 50%;
+
 }
 .header{
-    max-width: 70%;
     margin: auto;
     display: flex;
-    justify-content: flex-end;
     padding: 20px;
     background-color: black;
 }
 .header_menu{
     display: flex;
-    align-items: center;
+    float: right;
 }
 .menu_but{
     padding-right: 40px;
@@ -29,4 +35,43 @@ a{
 .menu_but:hover{
     background-color: rgb(105, 101, 59);
     border-radius: 20px;
+}
+.section_about_me{
+    position: relative;
+    padding-left: 45px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+.section_about_me::before{
+    position: absolute;
+    content: "";
+    left:0;
+    top: 0;
+    width: 20px;
+    height: 37px;
+    background-color: #f25900a2;
+}
+.about_me{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    align-items: center;
+    border-bottom: khaki 10px;
+}
+.photo{
+    margin-right: 10px;
+}
+.hello{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: rgb(145, 137, 66);
+    text-align: start;
+}
+.introduction{
+    color: rgb(145, 137, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: start;
 }
