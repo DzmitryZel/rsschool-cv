@@ -4,8 +4,8 @@ a{
 }
 .logo{
     color: coral;
-    font-size: 30px;
-    margin-right: 70px;
+    font-size: 40px;
+    padding-right: 300px;
 }
 .header{
     max-width: 70%;
@@ -20,9 +20,13 @@ a{
     align-items: center;
 }
 .menu_but{
-    padding: 10px;
+    padding-right: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 24px;
 }
 .menu_but:hover{
     background-color: rgb(105, 101, 59);
-    border-radius: 4px;
+    border-radius: 20px;
 }
