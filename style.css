@@ -1,0 +1,232 @@
+.body{
+    width: 70%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: khaki;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    color: coral;
+    font-size: 60px;
+    justify-content: center;
+    width: 50%;
+
+}
+.header{
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    background-color: black;
+}
+.header_menu{
+    display: flex;
+    float: right;
+}
+.menu_but{
+    padding-right: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+.menu_but:hover{
+    background-color: rgb(105, 101, 59);
+    border-radius: 20px;
+}
+.section{
+    position: relative;
+    padding-left: 45px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+.section::before{
+    position: absolute;
+    content: "";
+    left:0;
+    top: 0;
+    width: 20px;
+    height: 37px;
+    background-color: #f25900a2;
+}
+.about_me{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.photo{
+    margin-right: 10px;
+}
+.hello{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: rgb(145, 137, 66);
+    text-align: start;
+}
+.introduction{
+    color: rgb(145, 137, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: start;
+}
+.education{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.H2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(145, 137, 66);
+}
+.education_list{
+    width: 60%;
+    margin-top: px;
+}
+.education_fill{
+    color: rgb(145, 137, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@keyframes render {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+    .diagram {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .legend {
+    max-width: 450px;
+  }
+  
+  .dia_title {  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    line-height: 21px;
+    color: rgb(145, 137, 66);
+  }
+  
+  .caption-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+  
+  .caption-item {
+    position: relative;
+  
+    margin: 20px 0;
+    margin-left: 10px;
+    padding-left: 30px;
+    
+    color: rgb(145, 137, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 18px;  
+    cursor: pointer;
+  }
+  
+  .caption-item:hover {
+    opacity: 0.8;
+  }
+  
+  .caption-item::before {
+    content: "";
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 8px;
+  }
+  
+  .caption-item:nth-child(1)::before {
+    background-color: #08eb6349;
+  }
+  
+  .caption-item:nth-child(2)::before {
+    background-color: #088ae734;
+  }
+  
+  .caption-item:nth-child(3)::before {
+    background-color: #f10aa444;
+  }
+  
+  .caption-item:nth-child(4)::before {
+    background-color: #f6fa0249;
+  }
+  
+  .caption-item:nth-child(5)::before {
+    background-color: rgba(236, 14, 14, 0.87);
+  }
+  
+  .chart {
+    min-width: 500px;
+  }
+  
+  .unit {
+    fill: none;
+    stroke-width: 10;
+    cursor: pointer;
+    
+    animation-name: render;
+    animation-duration: 1.5s;
+    transition-property: all; 
+    transition-duration: 1.5s;
+  }
+  
+  .unit:hover,
+  .hovered {
+    opacity: 0.8;
+    stroke-width: 12;
+  }
+  
+  .unit:nth-child(1) {
+    stroke: #08eb6349;
+    stroke-dasharray: 24 100;
+  }
+  
+  .unit:nth-child(2) {
+    stroke: #088ae734;
+    stroke-dasharray: 24 100;
+    stroke-dashoffset: -24;
+  }
+  
+  .unit:nth-child(3) {
+    stroke: #f10aa444;
+    stroke-dasharray: 24 100;
+    stroke-dashoffset: -48;
+  }
+  
+  .unit:nth-child(4) {
+    stroke: #f6fa0249;
+    stroke-dasharray: 24 100;
+    stroke-dashoffset: -72;
+  }
+  
+  .unit:nth-child(5) {
+    stroke: rgba(236, 14, 14, 0.87);
+    stroke-dasharray: 4 100;
+    stroke-dashoffset: -96;
+  }
